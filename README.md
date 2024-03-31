@@ -6,25 +6,25 @@ The GPU is specialized for highly parallel computations and therefore designed s
 ![image](https://github.com/Sourabh-Mallapur/Learning-CUDA/assets/106715050/436cfb6d-0586-468a-a9ec-36df0e1b53a1)
 
 ## Motivation:
-• GPU go brrr, more FLOPS please
-• Why? Simulation & world-models (games, weather, proteins, robotics)
-• Bigger models are smarter -> AGI (prevent wars, fix climate, cure cancer)
-• GPUs are the backbone of modern deep learning
-• classic software: sequential programs
-• higher clock rate trend for CPU slowed in 2003: energy consumption & heat dissipation
-• multi-core CPU came up
-• developers had to learn multi-threading (deadlocks, races etc.)
+- GPU go brrr, more FLOPS please
+- Why? Simulation & world-models (games, weather, proteins, robotics)
+- Bigger models are smarter -> AGI (prevent wars, fix climate, cure cancer)
+- GPUs are the backbone of modern deep learning
+- classic software: sequential programs
+-  higher clock rate trend for CPU slowed in 2003: energy consumption & heat dissipation
+- multi-core CPU came up
+- developers had to learn multi-threading (deadlocks, races etc.)
 
 ## The Rise of CUDA:
-• CUDA is all about parallel programs (modern software)
-• GPUs have (much) higher peak FLOPS than multi-core CPUs
-• main principle: divide work among threads
-• GPUs focus on execution throughput of massive number of threads
-• programs with few threads perform poorly on GPUs
-• CPU+GPU: sequential parts on CPU, numerical intensive parts on GPU
-• CUDA: Compute Unified Device Architect
-• GPGPU: Before CUDA tricks were used to compute with graphics APIs (OpenGL or Direct3D)
-• GPU programming is now attractive for developers (thanks to massive availability)
+- CUDA is all about parallel programs (modern software)
+- GPUs have (much) higher peak FLOPS than multi-core CPUs
+- main principle: divide work among threads
+- GPUs focus on execution throughput of massive number of threads
+- programs with few threads perform poorly on GPUs
+- CPU+GPU: sequential parts on CPU, numerical intensive parts on GPU
+- CUDA: Compute Unified Device Architect
+- GPGPU: Before CUDA tricks were used to compute with graphics APIs (OpenGL or Direct3D)
+- GPU programming is now attractive for developers (thanks to massive availability)
 
 ## General Terminologies - 
 Host & Device: The host is often used to refer to the CPU, while device is used to refer to the GPU.
